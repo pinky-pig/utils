@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-loss-of-precision */
 
 const PI = 3.1415926535897932384626
+
+// 用于表示地球的长半轴,偏心率的平方。是地球椭球模型的参数
 const a = 6378245.0
 const ee = 0.00669342162296594323
 
