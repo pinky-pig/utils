@@ -1,9 +1,8 @@
-# @arvin/utils from https://github.com/antfu/utils/
+# @arvin/utils extend @antfu/utils
 
+> 推荐直接 fork [@antfu/utils](https://github.com/antfu/utils/) 。这里没有 fork，而是将两个仓库强制合并。
 
-推荐直接 fork ，然后添加远程仓库，再合并就行了。这里没有 fork，而是将两个仓库强制合并。
-
-**1.  GitHub新建空白仓库***utils***并下载到本地：**
+**1. GitHub新建空白仓库***utils***并下载到本地：**
 
 ```bash
 git clone https://github.com/pinky-pig/utils.git
