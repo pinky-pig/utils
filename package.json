@@ -41,7 +41,9 @@
     "release": "bumpp --commit --push --tag && npm publish",
     "start": "esno src/index.ts",
     "typecheck": "tsc --noEmit",
-    "test": "vitest"
+    "test": "vitest",
+    "docs": "pnpm -C docs run docs:dev",
+    "docs:build": "pnpm -C docs run docs:build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.40.2",
